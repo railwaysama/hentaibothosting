@@ -35,7 +35,7 @@ jobs:
            git clone https://github.com/Nksama/lazyleech.git leech && cd leech && pip3 install -r requirements.txt
            pwd
        - name: Running
-         timeout-minutes: 350
+         timeout-minutes: 349
          continue-on-error: true
          run: |
            pwd
