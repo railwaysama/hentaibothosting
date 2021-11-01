@@ -41,4 +41,5 @@ jobs:
          run: |
            pwd
            cd leech
+           sudo apt -qq update && sudo apt -qq install -y --no-install-recommends ffmpeg neofetch
            bash run.sh
